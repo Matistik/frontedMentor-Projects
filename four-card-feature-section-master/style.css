@@ -11,13 +11,14 @@ h1{
     text-align: center;
     color: hsl(229, 6%, 66%);
     font-weight: 200;
+    margin-bottom: -1rem;
 }
 h2{
     text-align: center;
     color: hsl(234, 12%, 34%);
     font-weight: 600;
     font-size: 30px;
-    margin-bottom: 5rem;
+    
 }
 h3{
     font-weight: 200;
