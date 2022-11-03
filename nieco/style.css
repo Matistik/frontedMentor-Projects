@@ -1,80 +1,90 @@
-@import url('https://fonts.google.com/specimen/Outfit');
-
-*{
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
-    background-color: hsl(212, 45%, 89%);
-    
-    
-}
-
-
-
-div.card{
-    
-    overflow:auto;
-    align-self:  center;
-    margin-left: 40%;
-    margin-top: 5%;
-   
-}
-
-
-.card{
-    
-    max-width: 1440px;
-    background-color: white;
-    text-align: center;
-    max-width: 340px;
-    border-radius: 20px;
-    
-    
-}
-
-p.card.odstavec{
-    background-color: white;
-}
-
-.odstavec{
-    letter-spacing: 0px;
-    color: hsl(220, 15%, 55%);
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-right: 29px;
-    margin-left: 29px;
-    line-height: 1.4;
-}
-.nadpis{
-    line-height: 1.4;
-    margin-top: 25px;
-    margin-right: 23px;
-    margin-left: 23px;
-    font-weight: 700;
-}
-
-.attribution{
-    margin-top: 20px;
-}
-
-
+@import url('https://fonts.google.com/specimen/Poppins');
 
 body{
+    width: 1440px;
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins, sans-serif;
     
-    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+h2{
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 5rem;
+}
+h3{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
+    text-align: center;
+    max-width: 630px;
+    margin-left: 27rem;
     
+}
+
+.card{
+
+    background-color: white;
+    width: 400px;
+    height: 259px;
+    margin: 20px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px  #e6e6e6;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.uppper{
+    margin-top: 10rem;
+}
+
+.bottom{
+    margin-top: 2.5rem;
+}
+
+.line{
+    width: 400px;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+h4{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-left: 2rem;
+}
+p{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
 }
 
 img{
-    margin-top: 17px;
-       
-    border-radius: 20px;
-    width: 305px;
-    height: 300px;
+    margin-left: 19rem;
 }
 
-p{
-    
-    font-size: 15px;
+.cyan{
+    border-top: 6px solid hsl(180, 62%, 55%);
 }
+.red{
+    border-top: 6px solid hsl(0, 78%, 62%);
+}
+.orange{
+    border-top: 6px solid hsl(34, 97%, 64%);
+}
+.blue{
+    border-top: 6px solid hsl(212, 86%, 64%);
+}
+
